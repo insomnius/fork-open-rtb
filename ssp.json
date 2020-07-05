@@ -1,56 +1,80 @@
 {
 	"dsps": [
 		{
-			"id":     "dsp1",
-			"name":   "Test 1",
+			"id": "dsp1",
+			"name": "Test 1",
 			"bid_url": "http://localhost:9990/rtb"
 		},
 		{
-			"id":     "dsp2",
-			"name":   "Test 2",
+			"id": "dsp2",
+			"name": "Test 2",
 			"bid_url": "http://localhost:9999/..."
 		}
 	],
 	"placements": [
 		{
-			"id":       "example32050",
-           "type":     "banner",
-			"name":     "Example 320x50",
+			"id": "example32050",
+			"type": "banner",
+			"name": "Example 320x50",
 			"floor_cpm": 0.1,
-			"width":    320,
-			"height":   50
+			"width": 320,
+			"height": 50
 		},
 		{
-			"id":       "example300250",
-           "type":     "banner",
-			"name":     "Example 300x250",
+			"id": "example300250",
+			"type": "banner",
+			"name": "Example 300x250",
 			"floor_cpm": 0.1,
-			"width":    300,
-			"height":   250
+			"width": 300,
+			"height": 250
 		},
 		{
-			"id":       "example320480",
-           "type":     "banner",
-			"name":     "Example 320x480",
+			"id": "example320480",
+			"type": "banner",
+			"name": "Example 320x480",
 			"floor_cpm": 0.1,
-			"width":    320,
-			"height":   480
+			"width": 320,
+			"height": 480
 		},
 		{
-			"id":       "example72890",
-           "type":     "banner",
-			"name":     "Example 728x90",
+			"id": "example72890",
+			"type": "banner",
+			"name": "Example 728x90",
 			"floor_cpm": 0.1,
-			"width":    728,
-			"height":   90
+			"width": 728,
+			"height": 90
 		},
 		{
-			"id":       "video400400",
-           "type":     "video",
-			"name":     "Video 400x400",
+			"id": "example300330",
+			"type": "banner",
+			"name": "Example 300x330",
 			"floor_cpm": 0.1,
-			"width":    400,
-			"height":   400
+			"width": 300,
+			"height": 330
+		},
+		{
+			"id": "example300330HigherCPM",
+			"type": "banner",
+			"name": "Example 300x330 with higher CPM",
+			"floor_cpm": 0.5,
+			"width": 300,
+			"height": 330
+		},
+		{
+			"id": "example330300",
+			"type": "banner",
+			"name": "Example 330x300",
+			"floor_cpm": 0.1,
+			"width": 330,
+			"height": 300
+		},
+		{
+			"id": "video400400",
+			"type": "video",
+			"name": "Video 400x400",
+			"floor_cpm": 0.1,
+			"width": 400,
+			"height": 400
 		}
 	]
 }

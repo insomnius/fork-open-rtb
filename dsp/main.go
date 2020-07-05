@@ -2,6 +2,7 @@ package main
 
 import (
 	"log"
+	"time"
 
 	"github.com/alicebob/ssp/dsplib"
 )
@@ -29,6 +30,15 @@ var (
 			ClickURL: "https://xkcd.com/386/",
 		},
 		dsplib.Campaign{
+			ID:       "camp2",
+			Type:     "banner",
+			Width:    300,
+			Height:   330,
+			BidCPM:   0.5,
+			ImageURL: "https://lh3.googleusercontent.com/AUcyirm3pWZq9Gi04owA6nUcLlXbtWtLE5aKf5xoOusEe6ANRKirQSvbwbq5KItdJMhE73LMQGvyUVAP-0HNyV8=s400",
+			ClickURL: "https://xkcd.com/386/",
+		},
+		dsplib.Campaign{
 			ID:       "vid1",
 			Type:     "video",
 			Width:    400,
@@ -49,5 +59,6 @@ func main() {
 	}
 	log.Printf("BidURL: %s", s.BidURL)
 	for {
+		time.Sleep(time.Second)
 	}
 }
